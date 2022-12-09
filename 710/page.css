@@ -1,0 +1,79 @@
+body{
+background-image:url(./g1.jpg);
+}
+.hori{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(0, 183, 255);
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: white;
+}
+.para{
+    text-align: center;
+    padding: 100px;
+    text-transform: uppercase;
+}
+span{
+    font-size: small;
+}
+.sec{
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.p{
+    margin-top: 60px;
+    padding: 0px 10px;
+}
+.p b{
+    padding: 0px 10px;
+}
+.o{
+    margin-left: 300px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.o b{
+    padding: 0px 5px;
+}
+button{
+     margin-left: 600px;
+}
+.b{
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+.t{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(64, 124, 255);
+}
+.u{
+    font-size: 100px;
+
+}
+.one{
+    display: flex;
+    padding: 50px 100px;
+}
+img{
+    border-radius: 50%;
+}
+
+.visib{
+    position: relative;
+    color: blue;
+}
+.visib .hide{
+    visibility: hidden;
+    color: violet;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    width: 200px;
+}
+.visib:hover .hide{
+    visibility: visible;
+}
